@@ -1,0 +1,32 @@
+feature,area,priority,original,clone,notes
+Focus camera with recording timer,capture,must,yes,yes,Simulated capture; timer and pause are real
+Recording pauses when the app is left,capture,must,yes,yes,Visibility change auto-pauses
+Camera-off focus mode,capture,must,yes,yes,
+Stopwatch timer,timers,must,yes,yes,
+Goal timer,timers,must,yes,yes,
+Pomodoro focus/break rounds,timers,must,yes,yes,
+Pause with resume window,capture,should,yes,yes,15 minute resume countdown
+Session duration on save,capture,must,yes,yes,
+Tag a session,capture,must,yes,yes,Preset + create your own
+Session visibility private or friends,privacy,must,yes,yes,
+Streak,proof,must,yes,yes,
+Total time and session count,proof,must,yes,yes,
+Daily average,proof,should,yes,yes,
+Heatmap of days worked,proof,must,yes,yes,17 weeks
+Bar chart of the last 7 days,proof,should,yes,yes,
+Trend vs previous period,proof,could,yes,yes,
+Friends list,proof,should,yes,yes,Demo friends seeded
+Session gallery,gallery,must,yes,yes,
+Per-session editor,gallery,should,yes,partial,Stickers/timers/trim/speed are presentational
+Share sheet,gallery,should,yes,partial,Destinations listed; export simulated
+Home feed of friends' effort,social,must,yes,yes,
+Kudos,social,must,yes,yes,
+Comments,social,must,yes,yes,
+Nudge a friend,social,should,yes,yes,
+Live now in study group,social,should,yes,yes,
+Weekly leaderboard,social,must,yes,yes,
+Trend chart in group,social,could,yes,yes,
+Cloud backup of clips,storage,could,yes,skip,Needs object storage; sessions are stored, clips are generated
+OS app blocking,platform,could,yes,skip,Needs Android platform APIs
+Real timelapse video encoding,capture,could,yes,skip,Out of scope for preview build
+Handle based account,auth,must,yes,yes,
