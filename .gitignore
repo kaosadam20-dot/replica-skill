@@ -5,3 +5,5 @@ __pycache__/
 *.tmp
 node_modules/
 dist/
+android/build/
+android/.keystore/
